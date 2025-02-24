@@ -29,7 +29,7 @@ if (tipolavadora == 1) {
         costotal = cantidad * costobase * horas
         alert("Costo total por alquilar " + cantidad + " " + tipo + " por " + horas + " horas: $" + costotal)
     }
-} else {
+} else if (tipolavadora >2 ){
     alert("ingrese un numero valido")
 }
 
