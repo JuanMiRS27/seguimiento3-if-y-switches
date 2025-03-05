@@ -23,7 +23,6 @@ if (costo > 0) {
     if (queso === "si") {
         costo += 2500;
     }
-
     alert("El costo total de su sándwich es: " + costo);
 } else {
     alert("Tamaño de sándwich no válido.");
